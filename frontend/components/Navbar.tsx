@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -26,15 +27,25 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/60 bg-white/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div className="flex items-center justify-between gap-3">
-          <Link href="/" className="group inline-flex items-center gap-3">
-            <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-600 to-sky-600 text-sm font-bold text-white shadow-lg shadow-emerald-600/20">
-              ND
+          <Link href="/" className="group inline-flex items-center gap-3 rounded-full pr-2 transition hover:bg-emerald-50/70">
+            <span className="relative flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500 via-emerald-400 to-sky-400 p-[2px] shadow-[0_10px_24px_rgba(16,185,129,0.22)] transition duration-300 group-hover:-translate-y-0.5 group-hover:shadow-[0_14px_30px_rgba(16,185,129,0.28)]">
+              <span className="flex h-full w-full items-center justify-center overflow-hidden rounded-full bg-white ring-2 ring-white">
+                <Image
+                  src="/logo.png"
+                  alt="Nyamagoud Developers Logo"
+                  width={56}
+                  height={56}
+                  className="h-11 w-11 object-cover object-center transition duration-300 group-hover:scale-105"
+                  priority
+                />
+              </span>
             </span>
+            
             <span>
-              <span className="block text-base font-semibold tracking-tight text-slate-900">
+              <span className="block text-base font-semibold tracking-tight text-slate-900 transition group-hover:text-emerald-700">
                 Nyamagoud Developers
               </span>
-              <span className="block text-xs font-medium uppercase tracking-[0.28em] text-slate-500">
+              <span className="block text-xs font-medium uppercase tracking-[0.28em] text-slate-500 transition group-hover:text-slate-600">
                 Jamkhandi, Karnataka
               </span>
             </span>
