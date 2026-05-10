@@ -17,7 +17,7 @@ export const plots: Plot[] = [
     facing: "East Facing",
     status: "Available",
     price: "Contact for Price",
-    image: "/assets/plots/plot-1.jpg",
+    image: "/assets/plots/map.png ",
     description: "A well-positioned residential plot close to daily conveniences with clear road access and growth potential.",
   },
   {
@@ -27,7 +27,7 @@ export const plots: Plot[] = [
     facing: "North Facing",
     status: "Limited",
     price: "Contact for Price",
-    image: "/assets/plots/plot-2.jpg",
+    image: "/assets/plots/map.png ",
     description: "Ideal for a larger family home with straightforward frontage and a calm residential setting.",
   },
   {
@@ -37,7 +37,7 @@ export const plots: Plot[] = [
     facing: "West Facing",
     status: "Booking Open",
     price: "Contact for Price",
-    image: "/assets/plots/plot-3.jpg",
+    image: "/assets/plots/map.png",
     description: "A Nagar-connected plot suitable for first-home buyers and long-term residents.",
   },
   {
@@ -47,7 +47,7 @@ export const plots: Plot[] = [
     facing: "West Facing",
     status: "Booking Open",
     price: "Contact for Price",
-    image: "/assets/plots/plot-4.jpg",
+    image: "/assets/plots/map.png",
     description: "A practical option inside a developing residential corridor with clear access roads.",
   },
   {
@@ -57,7 +57,7 @@ export const plots: Plot[] = [
     facing: "East Facing",
     status: "Available",
     price: "Contact for Price",
-    image: "/assets/plots/plot-5.jpg",
+    image: "/assets/plots/map.png",
     description: "A future-ready residential opportunity with a balanced combination of location and Nagar design.",
   },
   {
@@ -67,7 +67,7 @@ export const plots: Plot[] = [
     facing: "North Facing",
     status: "Reservation Open",
     price: "Contact for Price",
-    image: "/assets/plots/plot-6.jpg",
+    image: "/assets/plots/map.png",
     description: "Compact and convenient for buyers looking for an easy-start residential investment.",
   },
 ];

@@ -16,7 +16,7 @@ export const layouts: Layout[] = [
     totalPlots: 42,
     availablePlots: 16,
     amenities: ["Drainage", "Wide Roads", "Street Lighting", "Water Lines"],
-    image: "/assets/layouts/layout-1.jpg",
+    image: "/assets/layouts/topview.png",
     status: "Under Development",
     description: "A family focused layout with practical plot sizes and planning designed for comfortable residential living.",
   }
