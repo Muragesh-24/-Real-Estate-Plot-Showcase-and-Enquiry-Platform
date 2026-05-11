@@ -43,7 +43,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-slate-200/80">
         <div className="mx-auto max-w-7xl px-4 py-4 text-xs text-slate-500 sm:px-6 lg:px-8">
-          © 2026 Nyamagoud Developers. Static website scaffold ready for future API integration.
+          © 2026 Nyamagoud Developers. All Rights Reserved
         </div>
       </div>
     </footer>
